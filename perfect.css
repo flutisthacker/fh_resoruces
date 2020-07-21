@@ -1,0 +1,185 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161615;
+  color: #dfdfe2
+}
+
+.centerize-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.centerize-abs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerize-fix {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerize-grid {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.btn-perfect {
+  padding: 18px 32px;
+  font-size: 16px;
+}
+
+
+.brsharp {
+  border-radius: 2px;
+  /* //serious and cleen */
+}
+
+.brtech {
+  border-radius: 4px;
+  /*  bavk accountinf serious but friendly feel  */
+}
+
+.brtechfr {
+  border-radius: 5px;
+  /*  bavk accountinf serious but friendly feel  */
+}
+
+.brapplesafe {
+  border-radius: 6px;
+  /*  bavk accountinf serious but friendly feel  */
+}
+
+.brcircle {
+  border-radius: 50%;
+
+}
+
+.brjuicesafe {
+  border-radius: 8px;
+  /*  bavk accountinf serious but friendly feel  */
+}
+
+.brkidsgame {
+  border-radius: 12px;
+  /*  bavk accountinf serious but friendly feel  */
+}
+
+.neu {
+  background: #deeaf6;
+  box-shadow: -10px -10px 20px #f3f9ff, 10px 10px 20px #becbd8;
+
+}
+
+.neu-dark {
+  background: #1a1b1e;
+  box-shadow: -10px -10px 20px #242529, 10px 10px 20px #151518, 1px 1px 0px #ffffff55;
+
+}
+
+.glass {
+  backdrop-filter: blur(2px);
+  opacity: .6;
+  border-radius: 60px;
+}
+
+.glass .bg-light {
+  background: #fff;
+
+}
+
+.glass .bg-dark {
+  background: #f000;
+
+}
+
+.smooth-reveal {
+  animation: content_reveal .8s ease;
+  /* https://www.instagram.com/p/CCqyrDiAl_z/ */
+  /* on body .html */
+}
+
+@keyframes content_reveal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.bg-lg {
+  background: linear-gradient(90deg, #7f7f7f, #a5cad2);
+}
+
+.bg-lg2 {
+  background: linear-gradient(90deg, #e5a15a, #cb715d);
+}
+
+.bg-cg {
+  background: conic-gradient(from 0deg, #c8078c 0%, #782dec 25%, #4eadf4 50%, #9af7f2 75%, #161615 75%);
+}
+
+:root {
+  --cp23c1: #128cba;
+  --cp23c2: #71ceed;
+  --cp23c3: #f89b07;
+  --cp23c4: #f9dda3;
+
+  --cp24c1: #149388;
+  --cp24c2: #1fc39e;
+  --cp24c3: #a5e39d;
+  --cp24c4: #ffe9c0;
+
+  --ailove1: #ffc57a;
+  --ailove2: #fe771b;
+  --ailove3: #b78957;
+  --ailove4: #e1312d;
+  --ailove5: #302016;
+
+  --happycoffee1: #e2cf9b;
+  --happycoffee2: #f77969;
+  --happycoffee3: #fa1c24;
+  --happycoffee4: #6f1b33;
+  --happycoffee5: #361e3b;
+
+  --questionmonkey1: #e7d39f;
+  --questionmonkey2: #fb7b6b;
+  --questionmonkey3: #14435e;
+  --questionmonkey4: #46443e;
+
+  --tiredAC1: #fce8d5;
+  --tiredAC2: #f9d0af;
+  --tiredAC3: #0a97b0;
+  --tiredAC4: #100fbf;
+
+  --foxy1: #d2c6d3;
+  --foxy2: #ed502f;
+  --foxy3: #b90034;
+  --foxy4: #1a1a1a;
+}
+
+.rx35 {
+  transform-style: bottom;
+  transform: rotateX(45deg);
+}

@@ -1,0 +1,102 @@
+.strongbliss {
+  background: linear-gradient(90deg, #c79081, #dfa579);
+}
+
+.deserthump {
+  background: linear-gradient(90deg, #c79081, #dfa579);
+}
+
+.juicypeach {
+  background: linear-gradient(90deg, #ffecd2, #fcb69f);
+}
+
+.mountainrock {
+  background: linear-gradient(90deg, #868f96, #596164);
+}
+
+.warmflame {
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+
+.aquasplash {
+  background: linear-gradient(90deg, #13547a, #80d0c7);
+}
+
+.everlastingsky {
+  background: linear-gradient(90deg, #fdfcfb, #e2d1c3);
+}
+
+.reddark {
+  background: linear-gradient(90deg, #ff2cdf, #0014ff);
+}
+
+.greendark {
+  background: linear-gradient(90deg, #08f760, #111cff);
+}
+
+.yellowred {
+  background: linear-gradient(90deg, #ffd4b3, #ff005c);
+}
+
+.yellowred2 {
+  background: linear-gradient(90deg, #fedf43, #e62533);
+}
+
+.yellowgreen {
+  background: linear-gradient(90deg, #f8e241, #04fcff);
+}
+
+.pinkpurple {
+  background: linear-gradient(90deg, #ff2cdf, #0014ff);
+}
+
+.yellowpink {
+  background: linear-gradient(90deg, #ffd4b3, #ff005c);
+}
+
+.greenblue {
+  background: linear-gradient(90deg, #08f760, #111cff);
+}
+
+.yellowmaroon {
+  background: linear-gradient(90deg, #fedf43, #e62533);
+}
+
+.yellowaqua {
+  background: linear-gradient(90deg, #f8e241, #04fcff);
+}
+
+/*
+color1
+#4F2DC1
+#35BE94
+#C7B2FF
+
+
+color2
+#15C787
+#F9A62C
+#7865FD
+*/
+:root {
+  --cp1c1: #eedece;
+  --cp1c2: #565ca0;
+  --cp1c3: #b85a31;
+  --cp1c4: #f8a59f;
+
+  --cp2c1: #ff7a89;
+  --cp2c2: #a5cad2;
+  --cp2c3: #7f7f7f;
+  --cp2c4: #f1f1f1;
+
+  --cp3c1: #171b2c;
+  --cp3c2: #1ff2ff;
+  --cp3c3: #6179e5;
+  --cp3c4: #013475;
+
+  --cp4c1: #f64b29;
+  --cp4c2: #1b212c;
+  --cp4c3: #3c4657;
+  --cp4c4: #ffd6ae;
+
+}
