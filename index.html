@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="perfect.css"> -->
+
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<style>
+  body {
+    color: black;
+  }
+
+  #reg-log {
+    display: none;
+  }
+
+  #reg-log+label {
+    margin: 15px;
+    width: 60px;
+    height: 20px;
+    background: red;
+    position: relative;
+    border-bottom-left-radius: 35%;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 35%;
+  }
+
+  #reg-log+label::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: position .5s ease;
+    background: green;
+  }
+
+  #reg-log:checked+label {
+    background: blue;
+  }
+
+  #reg-log:checked+label::after {
+    left: 40px;
+  }
+
+  .card-3d-wrapper {
+    position: relative;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+    transform-origin: center;
+    overflow: hidden;
+  }
+
+  #reg-log:checked~.card-3d-wrap>.card-3d-wrapper {
+    transform: rotateY(180deg);
+  }
+
+  /* #reg-log:checked~.card-3d-wrap>.card-3d-wrapper>.card-back {
+    transform: rotateY(-180deg);
+  } */
+
+
+  .card-front {
+    position: absolute;
+    background: #000;
+    /* backface-visibility: hidden; */
+  }
+
+  .card-back {
+    position: absolute;
+    background: #000;
+    /* backface-visibility: hidden; */
+    transform: rotateY(180deg);
+  }
+</style>
+
+<body>
+  <div class="section">
+    <div class="container">
+      <div class="row full-height justify-content-center">
+        <div class="col-12 text-center align-self-center py-5">
+          <div class="section pb-5 pt-5 pt-sm-2 text-center">
+            <h6 class="mb-0 pm-3">
+              <span>login</span><span>sign up</span>
+            </h6>
+            <input type="checkbox" name="reg-log" id="reg-log" class="checkbox">
+            <label for="reg-log"></label>
+            <div class="card-3d-wrap mx-auto">
+              <div class="card-3d-wrapper">
+                <div class="card-front">
+                  <div class="center-wrap">
+                    <div class="section text-center">
+
+                      <h4 class="mb-4 pb-3">log in</h4>
+                      <div class="form-group">
+                        <input type="email" name="logemail" id="logemail" placeholder="put email..." autocomplete
+                          class="form-input">
+                        <i class="fa fa-envelope"></i>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="logpassword" id="logpassword" placeholder="put password..."
+                          autocomplete class="form-input">
+                        <i class="fa fa-lock"></i>
+                      </div>
+                      <a href="" class="btn btn-success btn-large mt-4">Submit</a>
+                      <p class="mb-0 mt-4 text-center">
+                        <a href="" class="link">forgot password</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="center-wrap">
+                    <div class="section text-center">
+
+                      <h4 class="mb-4 pb-3">register</h4>
+                      <div class="form-group">
+                        <input type="email" name="logemail" id="logemail" placeholder="put email..." autocomplete
+                          class="form-input">
+                        <i class="fa fa-envelope"></i>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="logpassword" id="logpassword" placeholder="put password..."
+                          autocomplete class="form-input">
+                        <i class="fa fa-lock"></i>
+                      </div>
+                      <a href="" class="btn btn-success btn-large mt-4">Submit</a>
+                      <p class="mb-0 mt-4 text-center">
+                        <a href="" class="link">forgot password</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
