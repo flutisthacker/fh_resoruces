@@ -1,3 +1,19 @@
+.visa {
+  background: linear-gradient(135deg, #52b6fe, #6154fe);
+}
+
+.twocircle {
+  background: linear-gradient(90deg, #042843, #726e9e);
+}
+
+.discover {
+  background: linear-gradient(90deg, #ff974b, #ff94a1);
+}
+
+.paypal {
+  background: linear-gradient(90deg, #5ba0ff, #89f7f7);
+}
+
 .strongbliss {
   background: linear-gradient(90deg, #c79081, #dfa579);
 }

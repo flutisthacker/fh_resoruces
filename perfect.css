@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
   background-color: #161615;
   color: #dfdfe2
 }
@@ -108,7 +109,18 @@ body {
 
 .glass .bg-dark {
   background: #f000;
+}
 
+.disabled-select {
+  user-select: none;
+  resize: none;
+}
+
+.disablelink {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
 }
 
 .smooth-reveal {
@@ -177,6 +189,104 @@ body {
   --foxy2: #ed502f;
   --foxy3: #b90034;
   --foxy4: #1a1a1a;
+
+  --theamazingspiderman1: #c02330;
+  --theamazingspiderman2: #1d63b4;
+  --theamazingspiderman3: #e5e3ff;
+  --theamazingspiderman4: #7c5568;
+  --theamazingspiderman5: #bbcae9;
+
+  --strangeadventures1: #f9dc44;
+  --strangeadventures2: #d14235;
+  --strangeadventures3: #6594b0;
+  --strangeadventures4: #c15d99;
+  --strangeadventures5: #9ecabf;
+
+  --starwarsbountyhunters1: #53a677;
+  --starwarsbountyhunters2: #fdba3e;
+  --starwarsbountyhunters3: #eb5326;
+  --starwarsbountyhunters4: #0164a9;
+  --starwarsbountyhunters5: #cba8b0;
+
+  --stealth1: #7d4198;
+  --stealth2: #4cabcf;
+  --stealth3: #f5b75a;
+  --stealth4: #6f678e;
+  --stealth5: #81335f;
+
+  --flash1: #c95e57;
+  --flash2: #00b8f2;
+  --flash3: #7dc9d6;
+  --flash4: #fae687;
+  --flash5: #c6e0c2;
+
+  --deathmetal1: #f8bd3a;
+  --deathmetal2: #961d21;
+  --deathmetal3: #28598a;
+  --deathmetal4: #a8ab9c;
+  --deathmetal5: #6d503e;
+
+  --ofsp_ce1: #fb6c6d;
+  --ofsp_ce2: #1e86ff;
+  --ofsp_ce3: #f59a55;
+  --ofsp_ce4: #ffffff;
+
+  --ofsp_ce5: #3959a2;
+  --ofsp_ce6: #a8dbd2;
+  --ofsp_ce7: #16181e;
+  --ofsp_ce8: #ffffff;
+
+  --monoblue1: #3acbe8;
+  --monoblue2: #0d85d8;
+  --monoblue3: #0160c9;
+  --monoblue4: #0041c7;
+
+  --monoorange1: #ffbf00;
+  --monoorange2: #ffa000;
+  --monoorange3: #ff8c00;
+  --monoorange4: #ff6600;
+
+  --monogreen1: #4cbb17;
+  --monogreen2: #46cb18;
+  --monogreen3: #138808;
+  --monogreen4: #006400;
+
+  --monopurple1: #fff6f6;
+  --monopurple2: #eea1eb;
+  --monopurple3: #cb22d7;
+  --monopurple4: #891180;
+
+  /* awsmcolor */
+  --stromblue: #182f53;
+  --alpacawool: #f9eee2;
+  --corolrose: #f57a4d;
+  --brownishred: #9c3725;
+
+  --awsm287a: #30bcc9;
+  --awsm287b: #faf3e3;
+  --awsm287c: #fada80;
+  --awsm287d: #f6404f;
+
+  --awsm337a: #13a699;
+  --awsm337b: #ffd708;
+  --awsm337c: #fff7ed;
+  --awsm337d: #aaf0d1;
+
+  --awsm365a: #f1e1c9;
+  --awsm365b: #faf8f0;
+  --awsm365c: #cfecf5;
+  --awsm365d: #a9e2f5;
+
+  --awsm353a: #f340af;
+  --awsm353b: #fbdb14;
+  --awsm353c: #fffceb;
+  --awsm353d: #01f9c6;
+
+  --awsm326a: #f49fb6;
+  --awsm326b: #f4d2d2;
+  --awsm326c: #faf8f0;
+  --awsm326d: #a6e0de;
+
 }
 
 .rx35 {
