@@ -333,6 +333,51 @@ body {
   --awsm326b: #f4d2d2;
   --awsm326c: #faf8f0;
   --awsm326d: #a6e0de;
+  
+        --color1-a:#31393c;
+        --color2-a:#2176ff;
+        --color3-a:#33a1fd;
+        --color4-a:#fdca40;
+        --color5-a:#f79824;
+
+        --color1-b:#03045e;
+        --color2-b:#0077b6;
+        --color3-b:#00b4d8;
+        --color4-b:#90e0ef;
+        --color5-b:#caf0f8;
+        
+        --color1-e:#081f5c;
+        --color2-e:#334eac;
+        --color3-e:#7096d1;
+        --color4-e:#d0e3ff;
+        --color5-e:#e7f1ff;
+
+        --color1-c:#cdb4db;
+        --color2-c:#ffc8dd;
+        --color3-c:#ffafcc;
+        --color4-c:#bde0fe;
+        --color5-c:#a2d2ff;
+        
+        --color1-d:#9c89b8;
+        --color2-d:#f0a6ca;
+        --color3-d:#e7bcde; 
+        --color4-d:#f0e6ef;
+        --color5-d:#b8bedd;
+        --color6-d:#f2f4ee;
+
+        --color1-f:#2c98a0;
+        --color2-f:#38b2a3;
+        --color3-f:#4ccba3;
+        --color4-f:#67dba5;
+        --color5-f:#89e8ac;
+        --color6-f:#b0f2bc;
+
+        --color1-g:#7a0177;
+        --color2-g:#c51b8a;
+        --color3-g:#f768a1;
+        --color4-g:#fa9fb5;
+        --color5-g:#fcc5c0;
+        --color6-g:#feebe2;
 
 }
 
